@@ -1,0 +1,9 @@
+apt-get update
+apt-get install -y openssh-server
+
+passwd root
+
+service ssh restart
+
+host : localhost
+port : 22
